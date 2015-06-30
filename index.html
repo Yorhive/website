@@ -1,0 +1,76 @@
+<!doctype html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<link rel="icon" type="image/png" href="FaviconNew.png">
+            <meta name="viewport" content="width=device-width, initial-scale=1"> 
+            <link rel="stylesheet" type="text/css" href="default.css">
+			<link rel="stylesheet" type="text/css" media="only screen 
+														and (min-device-width : 320px) 
+														and (max-device-width : 600px) 
+														and (orientation : portrait)" 
+													href="mobile.css" />
+			<link rel="stylesheet" type="text/css" media="only screen 
+														and (min-device-width : 320px) 
+														and (max-device-width : 600px)
+														and (orientation : landscape)" 
+													href="default.css" /> 
+            <link rel="stylesheet" type="text/css" href="animate.css"> 
+
+<!--            <script>
+                (function(){
+                var canvas = document.getElementById('canvas'),
+                    context = canvas.getContext('2d');
+
+                0// resize the canvas to fill browser window dynamically
+                window.addEventListener('resize', resizeCanvas, false);
+
+                function resizeCanvas() {
+                        canvas.width = window.innerWidth;
+                        canvas.height = window.innerHeight;
+
+                        /**
+                         * Your drawings need to be inside this function otherwise they will be reset when 
+                         * you resize the browser window and the canvas goes will be cleared.
+                         */
+                        drawStuff(); 
+                }
+                resizeCanvas();
+
+                function drawStuff() {
+                        // do your drawing stuff here
+                }
+                        })();
+            </script>
+-->
+           <script src="js/wow.min.js"></script>
+            <script>
+                new WOW().init();
+            </script>
+
+			<title>Yorhive</title>
+            <style>
+                @viewport{
+                    width: device-width;
+                    zoom: 1;
+                }
+            </style>
+		</head> 
+		<body background="bg.svg" application/xhtml+xml>
+        <div class="Lines fadeIn animated">
+                <img 
+                    id="test2"
+                    alt="Lines"
+                    src="Lines.png"
+                    srcset="Lines_Mobile.png 1000w, Lines.png 1500w"
+                >
+            </div>  
+            <div class="Logo wow fadeIn animated" data-wow-delay="1s">
+                <img 
+                    id="test1" 
+                    src="Hexagon.png" 
+                    alt="YORHIVE. Where creatives connect">
+                </div>
+            </div> 
+        </body>
+	</html>
